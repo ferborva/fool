@@ -4,5 +4,12 @@
   "description": "Playground for general node tests",
   "main": "index.js",
   "author": "fbv",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+      "test": "mocha \"**/*.test.js\" --watch"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^4.0.0"
+  }
 }

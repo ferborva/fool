@@ -1,0 +1,1 @@
+const whiteboards = require('./whiteboards');
